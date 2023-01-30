@@ -12,7 +12,7 @@ var server = http.createServer(function (req, res) {
       '<html><body><h1>Welcome to my Node.js Application</h1></body></html>'
     );
     res.write(
-      '<html><body><p>Welcome Jenna Pangilinan. This is an activity about basics of Node.js</p></body></html>'
+      '<html><body><p>Welcome Nickaella Notra. This is an activity about basics of Node.js</p></body></html>'
     );
     res.end();
   } else if (req.url == '/about') {
