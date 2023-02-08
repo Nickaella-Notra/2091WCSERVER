@@ -5,3 +5,5 @@
 var message = require('./message.js');
 
 console.log(message.greet('Nicka'));
+console.log(message.congratulations('Nicka'));
+console.log(message.farewell('Nicka'));
