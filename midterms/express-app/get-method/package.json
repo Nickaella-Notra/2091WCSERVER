@@ -1,6 +1,0 @@
-{
-  "name": "get-method",
-  "dependencies": {
-    "express": "^4.18.2"
-  }
-}
