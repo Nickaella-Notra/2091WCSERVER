@@ -10,15 +10,15 @@ app.get('/api/heroes', (req, res) => {
 });
 
 app.get('/api/heroes/:id', (req, res) => {
-  res.send(req.params.id);
+    res.send(req.params.id);
 });
 
 app.get('/api/heroes/:title/:publisher', (req, res) => {
-  res.send(req.params);
+    res.send(req.params);
 });
 
 app.get('/api/heroes/:title/:publisher', (req, res) => {
-  res.send([req.params, req.query]);
+    res.send([req.params, req.query]);
 });
 
 app.listen(3000, () => console.log('listening on port 3000'));
