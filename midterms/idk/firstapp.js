@@ -9,5 +9,3 @@ app.get('/', function (request, response) {
 app.listen(3000, function () {
   console.log('Server running at port 3000');
 });
-
-app.use(express.static('public'));
