@@ -15,5 +15,4 @@ app.post('/api/movies', (req, res) => {
     res.send(movie);
 });
 
-
 app.listen(5000, () => console.log('listening on port 5000'));
