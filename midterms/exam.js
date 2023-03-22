@@ -22,10 +22,6 @@ const dishes = [
   },
 ];
 
-// app.get('/', (req, res) => {
-//   res.send(dishes);
-// });
-
 app.get('/dishes', (req, res) => {
   res.send(dishes);
 });
