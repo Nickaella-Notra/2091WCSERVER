@@ -19,7 +19,7 @@ const dishes = [
   },
 ];
 
-app.get('/api/dishes', (req, res) => {
+app.get('/dishes', (req, res) => {
   res.send(dishes);
 });
 
