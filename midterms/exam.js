@@ -19,15 +19,15 @@ const dishes = [
   },
 ];
 
-app.get('/dishes', (req, res) => {
+app.get('/api/dishes', (req, res) => {
   res.send(dishes);
 });
 
-app.get('/api/dishes/:type', (req, res) => {
+app.get('/dishes/:type', (req, res) => {
   res.send(req.params.type);
 });
 
-app.get('/api/dishes/:type', (req, res) => {
+app.get('/dishes/:type', (req, res) => {
   const dish = dishes.find((h) => h.type === req.params.type);
   if (!dish) return res.status(404).send('Record not Found');
   res.send(dishes);
