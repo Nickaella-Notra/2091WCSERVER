@@ -1,3 +1,6 @@
+// Name: Nickaella A. Notra
+// Section: WD-201
+
 const express = require('express');
 const app = express();
 
@@ -20,10 +23,10 @@ const dishes = [
 ];
 
 app.get('/', (req, res) => {
-  res.send('My New App!');
+  res.send(dishes);
 });
 
-app.get('/api/dishes', (req, res) => {
+app.get('/dishes', (req, res) => {
   res.send(dishes);
 });
 
